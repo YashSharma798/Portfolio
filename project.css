@@ -1,0 +1,74 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply basic styling to the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #080e1c ;
+    color: #333;
+}
+
+header {
+    background-color: #080e1c ;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* Style for the project card container */
+.project-card {
+    background-color: rgba(255, 255, 255, 0.911);
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex; /* Enable flex layout */
+    align-items: center; /* Vertically align content */
+}
+
+/* Style for project info on the left */
+.project-info {
+    flex: 1; /* Take up available space */
+    padding-right: 20px; /* Add space between info and images */
+}
+
+/* Style for project titles */
+.project-card h2 {
+    font-size: 2rem;
+    color: black;
+}
+
+/* Style for project descriptions and tech stack */
+.project-card p {
+    font-size: 18px;
+    color: black;
+    
+}
+
+/* Style for project images on the right */
+.project-images {
+    flex: 1; /* Take up available space */
+}
+
+/* Style for project images */
+.project-card img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+ a{
+    color:#fff;
+    background:  #101c36;
+    padding: 8px;
+    border-radius: 5%;
+    text-decoration: none;
+}
+
